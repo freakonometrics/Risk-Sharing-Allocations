@@ -415,7 +415,7 @@ correlation matrix is specified in the code. Coalition values are
 defined by the **ex ante risk-loaded game**
 
 $$
-v(C)=\mathbb E[S_C]+\lambda\operatorname{sd}(S_C),
+v(C)=\mathbb E[S_C]+\lambda\text{sd}(S_C),
 \qquad\lambda=0.25,
 \qquad S_C=\sum_{i\in C}X_i.
 $$
