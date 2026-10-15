@@ -426,9 +426,9 @@ Shapley allocations and verifies efficiency numerically. The
 decomposition is
 
 $$
-\operatorname{Sh}_i(v)
+\text{Sh}_i(v)
 =\mathbb E[X_i]
-+\lambda\operatorname{sd}(X_i)
++\lambda\text{sd}(X_i)
 +\sum_{C\ni i,\,|C|\ge2}\frac{d_v(C)}{|C|}.
 $$
 
@@ -545,11 +545,10 @@ risk margins and diversification credits.
 Keeping the marginal laws fixed, we compare independence, the baseline
 correlation matrix and equicorrelation $\rho=0.85$. The total
 non-singleton dividend is
-
 $$
 v(N)-\sum_i v(\{i\})
-=\lambda\left(\operatorname{sd}(S_N)
--\sum_i\operatorname{sd}(X_i)\right).
+=\lambda\left(\text{sd}(S_N)
+-\sum_i\text{sd}(X_i)\right).
 $$
 
 <div id="tbl-dependence">
