@@ -171,11 +171,10 @@ Two pricing beliefs $\boldsymbol q^A=(0.2,0.3,0.1,0.4)$ and
 $\boldsymbol q^B=(0.4,0.3,0.3,0)$ imply **the same premiums**:
 $A\boldsymbol q^A=A\boldsymbol q^B=(1,1.3,1.5)^\top$. The full set of
 compatible beliefs is
-
 $$
 \mathcal Q(\boldsymbol\pi;A)
 =\left\{\left(0.2+\frac t2,\,0.3,\,0.1+\frac t2,\,0.4-t\right):
--0.2\le t\le0.4\right\}.
+-0.2\leq t\le0.4\right\}.
 $$
 
 Consequently the sharp implied range for the stress probability is
